@@ -1,1 +1,1 @@
-web: gunicorn "gerenciador_app:create_app()"
+web: gunicorn "gerenciador_app:create_app()" --bind 0.0.0.0:$PORT
